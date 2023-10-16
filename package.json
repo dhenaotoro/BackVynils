@@ -1,8 +1,8 @@
 {
-  "name": "vinyls-backend-miso",
+  "name": "vynils-backend-miso",
   "private": true,
   "version": "1.0.0",
-  "description": "Vinyls Backend MISO",
+  "description": "Vynils Backend MISO",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",

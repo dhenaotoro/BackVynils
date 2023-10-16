@@ -8,4 +8,5 @@ RUN npm install --quiet
 
 COPY . .
 
-CMD ["npm", "run", "start"]
+#CMD ["npm", "run", "start"]
+ENTRYPOINT [ "sh", "./docker/entrypoint.sh" ]

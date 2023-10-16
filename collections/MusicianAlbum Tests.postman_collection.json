@@ -363,7 +363,7 @@
 						"exec": [
 							"var data= JSON.parse(responseBody);",
 							"tests[\"No genera error en el Get\"] = responseCode.code === 200;",
-							"tests[\"vinyls count - artists\"] = data.length >= 1;"
+							"tests[\"vynils count - artists\"] = data.length >= 1;"
 						],
 						"type": "text/javascript"
 					}
